@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "scope": "offline package, source and raw-evidence verification",
+  "root_manifest_files": 7,
+  "source_zip_files": 467,
+  "source_files_verified": 465,
+  "evidence_zip_files": 172,
+  "accuracy": {
+    "A2": {
+      "official": 27,
+      "developer": 88,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "A3": {
+      "official": 27,
+      "developer": 88,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "A5": {
+      "official": 27,
+      "developer": 88,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "performance_cases_recomputed": 21,
+  "kernel_csvs_verified": 48,
+  "provided_performance_regression_tests": {
+    "A2": 7,
+    "A3": 7,
+    "A5": 7
+  },
+  "npu_tests_rerun_by_offline_check": false,
+  "windows_extraction_tested": false,
+  "final_commit_independent_reproduction": "not_performed"
+}

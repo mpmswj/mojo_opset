@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-10-31T04:50:08.736976+00:00",
+  "source_discussion": "https://gitcode.com/Ascend/EcoDevHub/issues/64",
+  "referral_comment_id": 197267518,
+  "pull_request": "https://github.com/XPU-Forces/mojo_opset/pull/523",
+  "commit": "cd2ed26c33ce8716d9d14b42b090e1e3dc8b50fb",
+  "commit_confirmed_by": "git ls-remote refs/pull/523/head and patch From header",
+  "patch_sha256": "3b15ef6450a0f426f7d892186c5a35d743bd70984d70a31afd9ad8ff6bdf9022",
+  "files": [
+    {
+      "path": "tests/functions/test_vision_pos_embed_interp.py",
+      "url": "https://raw.githubusercontent.com/XPU-Forces/mojo_opset/cd2ed26c33ce8716d9d14b42b090e1e3dc8b50fb/tests/functions/test_vision_pos_embed_interp.py",
+      "bytes": 6155,
+      "sha256": "d8c69f054099e3b5a05800f9884c4102da3954739d6253e0bdfea35343df12b2",
+      "git_blob_sha": "bbbbaf6bc25de386b8c9038f6367b2473b029474"
+    },
+    {
+      "path": "tests/performance/functions/test_vision_pos_embed_interp.py",
+      "url": "https://raw.githubusercontent.com/XPU-Forces/mojo_opset/cd2ed26c33ce8716d9d14b42b090e1e3dc8b50fb/tests/performance/functions/test_vision_pos_embed_interp.py",
+      "bytes": 2070,
+      "sha256": "3c9652e54adb83a49269167a216c78ea8d26ed0b477dbbe48d034e0deccedb89",
+      "git_blob_sha": "c6501edb503b1539af1e04a037acbf9c6ad49770"
+    },
+    {
+      "path": "mojo_opset/kernels/torch/vision_pos_embed_interp.py",
+      "url": "https://raw.githubusercontent.com/XPU-Forces/mojo_opset/cd2ed26c33ce8716d9d14b42b090e1e3dc8b50fb/mojo_opset/kernels/torch/vision_pos_embed_interp.py",
+      "bytes": 1738,
+      "sha256": "f3b805fa0ae24152cfb14c2cf0015a697b6a02ed15acadc60db5061a041b7e80",
+      "git_blob_sha": "30f1c44c2bfa832533cf2b7379061551e859b567"
+    },
+    {
+      "path": "mojo_opset/functions/vision_pos_embed_interp.py",
+      "url": "https://raw.githubusercontent.com/XPU-Forces/mojo_opset/cd2ed26c33ce8716d9d14b42b090e1e3dc8b50fb/mojo_opset/functions/vision_pos_embed_interp.py",
+      "bytes": 1213,
+      "sha256": "753a24cdceaaf50b0a90eb139ae1c7892a2a3c7780d3c230fae280753cf66169",
+      "git_blob_sha": "5fc6308b1f928fe62c90d79484dbc7bc90b6dd9a"
+    }
+  ],
+  "tolerance_url": "https://gitcode.com/cann/opbase/blob/master/docs/zh/ops_precision_standard/mixed_tolerance_standard.md"
+}

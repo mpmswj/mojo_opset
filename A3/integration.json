@@ -1,0 +1,32 @@
+{
+  "scope": "pinned-source patch and interpolation-method integration; full model not loaded",
+  "reference_commits": {
+    "qwen3_vl.py": "aa31fa038f2cbfbc681ec9f7b7e39c9c728502ee",
+    "patch_qwen3vl.py": "d5923bcd7153af6020d1be46b908d711d76d1af7"
+  },
+  "source_sha256": {
+    "qwen3_vl.py": "cac3013e717c8d6299893a4e18964ea7ec3abbbf7373eed58045fab50da9028b",
+    "patch_qwen3vl.py": "428cb83b7d9d2277323ced374460f64490c576f4b674153f6cd0964984933ad0"
+  },
+  "cases": [
+    {
+      "dtype": "torch.float32",
+      "shape": [
+        2432,
+        1152
+      ],
+      "passed": true,
+      "max_abs_error": 6.556510925292969e-06
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "shape": [
+        2432,
+        1152
+      ],
+      "passed": true,
+      "max_abs_error": 0.00390625
+    }
+  ],
+  "passed": true
+}
